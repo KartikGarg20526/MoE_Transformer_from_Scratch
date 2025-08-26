@@ -108,15 +108,15 @@ The notebook covers:
 
 The model was evaluated using common machine translation metrics implemented with torchmetrics:
 
-- Character Error Rate (CER)
+- **Character Error Rate (CER)**
    Measures the proportion of character-level insertions, deletions, and substitutions needed to match the predicted output with the reference.
    Lower CER indicates better performance.
 
-- Word Error Rate (WER)
+- **Word Error Rate (WER)**
    Similar to CER but at the word level. Commonly used in speech recognition and translation tasks.
    Lower WER indicates better performance.
 
-- BLEU Score
+- **BLEU Score**
    Evaluates translation quality by comparing n-grams of the predicted output with reference sentences.
    Higher BLEU indicates better alignment with ground truth translations.
 
