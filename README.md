@@ -50,7 +50,7 @@ MoE_Transformer_from_Scratch/
 
 2. **Install dependencies**
    ```bash
-   pip install torch transformers datasets numpy matplotlib
+   pip install torch datasets tokenizers tqdm torchmetrics tensorboard
    ```
 
 3. **Additional requirements** (if using GPU)
