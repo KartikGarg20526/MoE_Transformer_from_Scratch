@@ -24,11 +24,11 @@ This project implements a **Mixture of Experts (MoE) Transformer** model from th
 🔗 [Dataset on Hugging Face](https://huggingface.co/datasets/Helsinki-NLP/opus_books)
 
 ## 🏗️ Architecture
-   # Transfomer Vs MoE Transfomer
+   ### Transfomer Vs MoE Transfomer
    The model implements a standard transformer architecture with MoE layers replacing traditional feed-forward networks:
-   ![MoE Transformer Architecture](Transfomer Vs MoE Transformer Architecture.png)
+   ![MoE Transformer Architecture]([Transfomer Vs MoE Transformer Architecture.png](https://github.com/KartikGarg20526/MoE_Transformer_from_Scratch/blob/main/transformer%20vs%20moe_transformer%20architecture.gif))
    
-   # MoE Architecture
+   ### MoE Architecture
    ![MoE Transformer Architecture](moe_architecture.png)
    
    - **MoE Layers**: Multiple expert networks with sparse activation
