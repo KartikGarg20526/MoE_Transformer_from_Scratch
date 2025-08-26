@@ -104,12 +104,23 @@ The notebook covers:
 - **Layer Normalization**: Stabilizes training
 - **Positional Encoding**: Handles sequence order
 
-## 📈 Performance
+## 📈 Evaluation
 
-The model demonstrates:
-- Efficient parameter utilization through sparse activation
-- Competitive performance on translation tasks
-- Scalable architecture for larger expert counts
+The model was evaluated using common machine translation metrics implemented with torchmetrics:
+
+- Character Error Rate (CER)
+   Measures the proportion of character-level insertions, deletions, and substitutions needed to match the predicted output with the reference.
+   Lower CER indicates better performance.
+
+- Word Error Rate (WER)
+   Similar to CER but at the word level. Commonly used in speech recognition and translation tasks.
+   Lower WER indicates better performance.
+
+- BLEU Score
+   Evaluates translation quality by comparing n-grams of the predicted output with reference sentences.
+   Higher BLEU indicates better alignment with ground truth translations.
+
+> ⚠️ **Note**: Due to limited GPU resources, I was only able to train the model for 5 epochs on Google Colab’s free GPU. This project is mainly intended for **educational purposes and demonstration of MoE implementation** rather than achieving state-of-the-art performance.
 
 ## 📚 References
 
