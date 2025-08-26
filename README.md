@@ -25,6 +25,8 @@ This project implements a **Mixture of Experts (MoE) Transformer** model from th
 
 ## 🏗️ Architecture
 
+![MoE Transformer Architecture](moe_architecture.png)
+
 The model implements a standard transformer architecture with MoE layers replacing traditional feed-forward networks:
 
 - **MoE Layers**: Multiple expert networks with sparse activation
