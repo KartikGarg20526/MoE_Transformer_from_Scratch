@@ -56,7 +56,7 @@ MoE_Transformer_from_Scratch/
 3. **Additional requirements** (if using GPU)
    ```bash
    # For CUDA support
-   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   pip install torch --index-url https://download.pytorch.org/whl/cu121
    ```
 
 ## 🚀 Usage
