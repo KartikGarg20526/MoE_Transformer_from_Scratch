@@ -125,5 +125,5 @@ The model was evaluated using common machine translation metrics implemented wit
 ## 📚 References
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Original Transformer paper
-- [Switch Transformer](https://arxiv.org/abs/2101.03961) - Scaling with MoE
+- [OUTRAGEOUSLY LARGE NEURAL NETWORKS: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER](https://arxiv.org/pdf/1701.06538) - Sparse Mixture of Experts
 - [Helsinki-NLP OPUS Project](http://opus.nlpl.eu/) - Dataset source
